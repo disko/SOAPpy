@@ -24,6 +24,7 @@ setup(name="SOAPpy",
       maintainer_email="Gregory.R.Warnes@Pfizer.com",
       url = url,
       long_description=long_description,
-      packages=['SOAPpy','SOAPpy/wstools']
+      packages=['SOAPpy','SOAPpy/wstools'],
+      install_requires=['fpconst'],
      )
 
